@@ -1,3 +1,4 @@
 import tushare as ts
-data=ts.get_industry_classified()
-print(data)
+import pickle
+data1=ts.get_industry_classified()
+print(data1)
